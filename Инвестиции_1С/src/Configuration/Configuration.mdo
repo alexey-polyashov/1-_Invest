@@ -39,4 +39,24 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ДИ_Аналитика</subsystems>
+  <subsystems>Subsystem.ДИ_Брокеры</subsystems>
+  <subsystems>Subsystem.ДИ_Портфели</subsystems>
+  <subsystems>Subsystem.ДИ_Сделки</subsystems>
+  <subsystems>Subsystem.ДИ_СоветникИИ</subsystems>
+  <commonModules>CommonModule.ДИ_БрокерыДиспетчер</commonModules>
+  <catalogs>Catalog.ДИ_Брокеры</catalogs>
+  <catalogs>Catalog.ДИ_Валюты</catalogs>
+  <catalogs>Catalog.ДИ_Портфели</catalogs>
+  <catalogs>Catalog.ДИ_ТипыАктивов</catalogs>
+  <enums>Enum.ДИ_ВидОперацииДС</enums>
+  <enums>Enum.ДИ_ВидСделки</enums>
+  <enums>Enum.ДИ_ВидыЦенныхБумаг</enums>
+  <enums>Enum.ДИ_МетодыОценки</enums>
+  <enums>Enum.ДИ_РекомендацииИИ</enums>
+  <enums>Enum.ДИ_СтатусыПортфеля</enums>
+  <enums>Enum.ДИ_ТипДанныхБрокеров</enums>
+  <enums>Enum.ДИ_ТипДохода</enums>
+  <enums>Enum.ДИ_ТипыПодключенияБрокера</enums>
+  <enums>Enum.ДИ_УровниРиска</enums>
 </mdclass:Configuration>

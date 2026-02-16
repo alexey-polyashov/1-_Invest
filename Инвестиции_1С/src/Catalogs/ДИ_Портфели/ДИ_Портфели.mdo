@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4825498b-1214-4e47-ac13-388bdb987376">
+  <producedTypes>
+    <objectType typeId="9b2bc526-63aa-45b5-9257-dceec13787e3" valueTypeId="08f321a3-5d30-4b5e-904a-1286ce6ba415"/>
+    <refType typeId="815efcfd-bfbc-4a5c-a5f6-42c89e70014f" valueTypeId="cefb1c44-ca51-4fa7-b964-6aa55e9f070c"/>
+    <selectionType typeId="de6f4b84-e249-4c25-bbfc-4600ea982b65" valueTypeId="4d94f06a-95cf-401a-8359-b84c3f365d06"/>
+    <listType typeId="5dc24045-7ab8-47a7-8aba-a54b15389d68" valueTypeId="e80c88c9-0f95-4a2f-b80d-5149da94ecea"/>
+    <managerType typeId="868c80a0-7eaa-41b1-bdec-84d75473e4e5" valueTypeId="688853f7-299e-41a0-869a-b849ad159b1d"/>
+  </producedTypes>
+  <name>ДИ_Портфели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Портфели</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДИ_Портфели.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДИ_Портфели.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5f9e143f-1e08-4591-a7ca-42c0da74fe29">
+    <name>ВалютаПортфеля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта портфеля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa8830ef-6cae-4ba6-89f4-ac3701c6149a">
+    <name>Брокер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брокер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_Брокеры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Брокер, обслуживающий счёт</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ed73f5ea-97f9-465d-a2ba-2849d43438f3">
+    <name>НомерСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер счета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер брокерского счета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="41f70d60-06ea-4254-bc1b-f7d3b1bc9e02">
+    <name>ДатаОткрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата открытия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b273846a-1d53-4001-8341-f8173c83d0f3">
+    <name>ДатаЗакрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата закрытия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="598acec9-3070-4739-b6e7-5e292074a126">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДИ_СтатусыПортфеля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d57eec0c-5d67-405e-9683-51a2cb592c58">
+    <name>ЦелеваяДоходность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целевая доходность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Плановая доходность % годовых</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6a98cdfe-4b4b-4992-b4d8-65d57373a91b">
+    <name>РискПрофиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Риск профиль</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДИ_УровниРиска</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="77d29af7-9e06-4540-a2c1-9fdb81b670d6">
+    <producedTypes>
+      <objectType typeId="3df34f87-d105-4bf3-a19b-aa42d2ef0e93" valueTypeId="f4f6a9e0-1078-4d18-8649-d3844ed5447b"/>
+      <rowType typeId="cabb4bdf-3ff3-4079-a64f-a27ed8077ada" valueTypeId="3fc969f6-f616-40bf-98ab-c7ae7f0f0c9e"/>
+    </producedTypes>
+    <name>ВладельцыПортфеля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владельцы портфеля</value>
+    </synonym>
+    <attributes uuid="fb38f3c3-dfcb-4daa-a017-2caac7f3d78c">
+      <name>Владелец</name>
+      <synonym>
+        <key>ru</key>
+        <value>Владелец</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>ФИО/наименование инвестора (строка)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="072e5ab3-62f4-4210-88f6-5a495269f827">
+      <name>ДоляВладения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доля владения</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Процент владения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

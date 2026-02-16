@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f00b321-5576-45d8-9d35-19b738519e3a">
+  <producedTypes>
+    <refType typeId="8b738b91-25e8-4a1c-b31c-756f0429f82d" valueTypeId="7a15f20c-2b3e-4276-b9bb-f4bcdd9a4ec4"/>
+    <listType typeId="c63e8124-c783-4b8c-ba59-f908fe8c7ab1" valueTypeId="294cfe3c-6b35-465c-affb-f886117e547d"/>
+    <managerType typeId="a28f0516-3340-4363-b9da-6b119396ebb0" valueTypeId="982a1e66-e014-446a-9a8b-286aa8236a70"/>
+  </producedTypes>
+  <name>ДИ_УровниРиска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни риска</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ffcf43fd-44db-44e9-8ac8-da7152f25b7a">
+    <name>Консервативный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Консервативный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="602c4bdb-4ad5-43fc-a71e-53d5f409065b">
+    <name>Умеренный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Умеренный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e6326b2-4f84-4eff-9b5c-9b286e7377b0">
+    <name>Агресивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агресивный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

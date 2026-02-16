@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb501ed0-aaba-41f9-a306-119254d3197a">
+  <name>ДИ_СоветникИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Советник (ИИ)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

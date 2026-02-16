@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi"/>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.ДИ_Портфели</subsystems>
+    <subsystems>Subsystem.ДИ_Брокеры</subsystems>
+    <subsystems>Subsystem.ДИ_Сделки</subsystems>
+    <subsystems>Subsystem.ДИ_Аналитика</subsystems>
+    <subsystems>Subsystem.ДИ_СоветникИИ</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

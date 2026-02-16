@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39eb204e-834c-4c6c-be19-0d70d5ad6f80">
+  <name>ДИ_Портфели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Портфели</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

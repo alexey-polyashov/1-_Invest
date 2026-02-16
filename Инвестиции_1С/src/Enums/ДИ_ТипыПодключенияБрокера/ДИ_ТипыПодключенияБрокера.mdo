@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2e4b2e3-17c0-472a-a8c0-05f6a18b52d5">
+  <producedTypes>
+    <refType typeId="dee60311-2eee-4c73-b309-945e710d4ded" valueTypeId="3baa226d-00b4-42ef-82e4-aa7af03781bc"/>
+    <listType typeId="835056a0-bbd6-41da-984c-952cdc758c06" valueTypeId="dcfdb22f-f98e-47a8-94e0-6f04195544f7"/>
+    <managerType typeId="35efda4e-040e-43d5-8ed1-f39bc3565916" valueTypeId="450b0fe0-680d-412b-8e4e-05c5815e01cc"/>
+  </producedTypes>
+  <name>ДИ_ТипыПодключенияБрокера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы подключения брокера</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1b0fdc95-5ce7-4b12-ae85-0af6dc8f0c0f">
+    <name>ВстроенныйAPIМодуль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встроенный API модуль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35f48d53-61bb-43b0-b930-c047499ef4dd">
+    <name>ВстроенныйМодульФайловогоОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встроенный модуль файлового обмена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f750577-febe-490e-8be8-970525aef306">
+    <name>ВнешняяОбрабтка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя обрабтка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

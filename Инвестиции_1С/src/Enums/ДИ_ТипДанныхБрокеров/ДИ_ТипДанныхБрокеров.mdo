@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e78af15-b8af-4c59-b653-9d77702681b0">
+  <producedTypes>
+    <refType typeId="a4846ab9-8106-4fb4-961a-296c0fc3585e" valueTypeId="b3440be9-7b89-4252-b3d8-736e22a0d3ef"/>
+    <listType typeId="6e7716a0-a530-478b-8ed8-46538b63e120" valueTypeId="cd10d87e-bd27-4a5b-a955-4455aef152a7"/>
+    <managerType typeId="054531eb-eff9-4799-bd69-863f72a50bb4" valueTypeId="638b90cd-7f24-48dc-878f-08fa228bd008"/>
+  </producedTypes>
+  <name>ДИ_ТипДанныхБрокеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип данных брокеров</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a9f45db6-651b-496b-ac7c-b39401b1501a">
+    <name>Котировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Котировки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6eb7ce99-a235-47e8-9e7f-7951963f072f">
+    <name>Остатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="30dd767e-4d6e-460a-9bce-cb709d966fcf">
+    <name>Сделки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сделки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98afc0fc-a650-4aea-a6ea-a31ad9947fce">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ec5723d-0107-4b22-90a7-5c918b01307e">
+    <name>Заявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15a68e56-3ea8-4df0-b01b-1424093719cb">
+    <name>Дивиденды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дивиденды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="658fc0d0-c943-4dcf-94a2-c0027383c906">
+    <name>Справочники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочники</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

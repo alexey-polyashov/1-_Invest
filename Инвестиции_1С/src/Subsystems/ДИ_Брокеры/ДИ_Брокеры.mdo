@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3281d04-e17b-4298-b55b-ecabf4b9f6a9">
+  <name>ДИ_Брокеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Брокеры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

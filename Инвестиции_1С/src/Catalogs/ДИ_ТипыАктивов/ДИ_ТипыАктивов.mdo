@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37d4d280-6bb1-4418-a708-26e7f8426c8b">
+  <producedTypes>
+    <objectType typeId="39ccec6a-d1e4-4870-94e9-da40bd83fe4f" valueTypeId="7b91f17c-adc8-4580-89c6-8d29604628c5"/>
+    <refType typeId="91df9ada-a3fd-413b-a292-2323f2841f2e" valueTypeId="8c7a2118-4f4a-41e5-a8da-df31bb82d1ed"/>
+    <selectionType typeId="74931a6d-b325-4825-bace-06c0b5a81ea5" valueTypeId="aca72de7-eab0-479e-a295-e7313440f559"/>
+    <listType typeId="ac00ea11-b999-45bc-bbb7-dbb96667e5dc" valueTypeId="a60a4582-6fd9-4da5-a017-e5c473920c25"/>
+    <managerType typeId="ec1a96b7-a7b6-462a-9f06-fcde82ca8b33" valueTypeId="7d3fbb4f-d458-450e-8da2-58f68f46948a"/>
+  </producedTypes>
+  <name>ДИ_ТипыАктивов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы активов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДИ_ТипыАктивов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДИ_ТипыАктивов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

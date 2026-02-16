@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd367f94-2116-4e3e-8dd9-368689964b71">
+  <producedTypes>
+    <refType typeId="51abcdd4-e242-4234-b889-1489f1df3f91" valueTypeId="fa6c8d24-a0f8-4ee3-a0e9-e907ceb8d5b2"/>
+    <listType typeId="e911cc43-0644-4367-aa82-f66ff4d9b12f" valueTypeId="471d756b-25a2-4de9-8cdc-2dbfbad97e15"/>
+    <managerType typeId="fc480435-98cf-45dd-915f-f1e6b972644e" valueTypeId="0aaa05bb-2073-4ada-8e4f-442337ee32d1"/>
+  </producedTypes>
+  <name>ДИ_РекомендацииИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рекомендации ИИ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="21d74a4b-c94c-4ef6-961c-c5fa367ae964">
+    <name>Покупать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="665285e2-0003-4d2b-a905-ca31dc652c69">
+    <name>Держать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Держать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ba248d2-412f-41c8-8cdb-d8661d8fcd1a">
+    <name>Продавать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продавать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0128cbd-5e22-4c71-a3fa-ee5ce6375132">
+    <name>Наблюдать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наблюдать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

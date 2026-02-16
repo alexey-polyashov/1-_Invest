@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d25df3aa-cdc7-433c-8449-dfbbbc14e274">
+  <producedTypes>
+    <refType typeId="65a86898-650d-4048-95a2-8e8242bd4999" valueTypeId="51a31ee3-15ca-438c-ae1f-5c528c20add3"/>
+    <listType typeId="6503c10d-d3bf-4462-8818-7636d4477f0a" valueTypeId="e3b18381-77e6-4df7-83e6-ee250c19bb28"/>
+    <managerType typeId="42e4da2a-048c-4591-8fdf-91993d6a5512" valueTypeId="f9e70cf2-ce08-447b-8c36-e8cf3dab54e0"/>
+  </producedTypes>
+  <name>ДИ_ВидыЦенныхБумаг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ценных бумаг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="41378702-5a52-4f26-9358-2e110ba4a9aa">
+    <name>АкцияОбыкновенная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акция обыкновенная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ae8637ec-3669-4c82-adba-6d4686770477">
+    <name>АкцияПривилегированная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акция привилегированная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf281392-bd54-46f9-88e7-9ad272f64bc3">
+    <name>ОблигацияОФЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Облигация ОФЗ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82ff4a31-0cb6-4123-9b61-7acc4ff27688">
+    <name>ОблигацияКорпоративная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Облигация корпоративная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d3b0571-01ae-4164-90c1-9f48258c445b">
+    <name>ОблигацияМуниципальная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Облигация муниципальная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3fdc870e-6ee3-4368-bc3e-d0ea14351d6f">
+    <name>Вексель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вексель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1884c8b4-5189-4ad5-b1d5-8eb02203c98d">
+    <name>ДепозитарнаяРасписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Депозитарная расписка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e2e37c9-9ba8-4ca4-8856-8a79ed92587d">
+    <name>ПаиПИФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паи ПИФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="add30c54-8f42-4dd7-9008-990a9f689556">
+    <name>Ноты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ноты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

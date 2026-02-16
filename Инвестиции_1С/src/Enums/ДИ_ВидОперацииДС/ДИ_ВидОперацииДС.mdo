@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4787d912-ab06-499f-929d-ad190494b954">
+  <producedTypes>
+    <refType typeId="7c654583-596a-4574-9805-02b02b3ad17a" valueTypeId="b9e69226-17db-4c50-96c1-f2664f3499d0"/>
+    <listType typeId="f5273354-40a9-4878-bb7d-134a11030774" valueTypeId="b31e059b-9dbb-4951-8c88-3bc922099f36"/>
+    <managerType typeId="d2cb6d1e-dcf0-4d14-9acc-ecb0b6283970" valueTypeId="270ed60d-d870-4983-955b-6d0684d794ad"/>
+  </producedTypes>
+  <name>ДИ_ВидОперацииДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид операции ДС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1e5a16f0-fbd0-4168-9f72-da35316aa21d">
+    <name>Ввод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4653456c-2669-4494-a09c-5c2c01b116d0">
+    <name>Вывод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вывод</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

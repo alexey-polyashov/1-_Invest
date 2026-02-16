@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a48f406-4a1f-49ba-9b94-7fb3ddd637f8">
+  <name>ДИ_БрокерыДиспетчер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Брокеры диспетчер</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

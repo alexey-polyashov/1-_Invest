@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36b8bf1f-4370-4596-a755-e5694d9190a9">
+  <producedTypes>
+    <refType typeId="89cbc86a-83f4-40ea-a22d-c2411ebd4b18" valueTypeId="88b3a642-25c5-4a69-9451-99df98fe0636"/>
+    <listType typeId="587cccc9-0c31-42dd-896b-5f8e0b499bf0" valueTypeId="811aeb3d-d40b-4a9e-84bf-600c9c903afb"/>
+    <managerType typeId="e6419503-ca05-4cce-9479-835a8a55bc7a" valueTypeId="1efb3e1e-6643-4b9b-a0db-9c7c55bae049"/>
+  </producedTypes>
+  <name>ДИ_МетодыОценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы оценки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e9804e3b-6ffc-4320-bdf3-eb32b4ca90a5">
+    <name>ПоРыночнойЦене</name>
+    <synonym>
+      <key>ru</key>
+      <value>По рыночной цене</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1787d55c-25e9-47da-80e1-496b354a2858">
+    <name>ПоНоминалу</name>
+    <synonym>
+      <key>ru</key>
+      <value>По номиналу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2012c01e-c5ee-4144-90a8-c6b00923bc37">
+    <name>ПоСебестоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>По себестоимости</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="652b5d75-5c07-49d1-bb7d-569c5e23748e">
+    <name>ПоЦенеПриобретения</name>
+    <synonym>
+      <key>ru</key>
+      <value>По цене приобретения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
