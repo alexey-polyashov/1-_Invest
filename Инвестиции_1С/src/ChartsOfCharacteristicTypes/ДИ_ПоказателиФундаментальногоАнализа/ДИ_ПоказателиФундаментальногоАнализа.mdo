@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a1495af-07a5-4fc2-86fa-080b79552bad">
+  <producedTypes>
+    <objectType typeId="ef8f3beb-2651-446b-a10b-77206bba3540" valueTypeId="a42997f0-e13e-4c0c-b971-6c849906ccc6"/>
+    <refType typeId="c21bbc13-755f-4afe-82ef-f56b49b6329c" valueTypeId="8d1505bc-7611-4d80-96ca-775c6a8102bb"/>
+    <selectionType typeId="ca3b2358-4954-4c08-9366-380183832497" valueTypeId="68ae7b4b-6bae-49f7-aa2b-a453265f81ed"/>
+    <listType typeId="18296a4b-6542-4678-87c1-272c7e5993a6" valueTypeId="f2ab419f-2764-4c3a-80d0-06fe85d912d5"/>
+    <managerType typeId="d32e95b2-0b1d-423d-8fcb-2b8712ad425b" valueTypeId="dd353be7-37b0-422d-839c-a9fa13dbf483"/>
+    <containerType typeId="9bf194ed-5f54-4f04-8c7b-632ffa168d6f" valueTypeId="69439ecf-703d-40ab-8d24-8c425a21dbe2"/>
+  </producedTypes>
+  <name>ДИ_ПоказателиФундаментальногоАнализа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели фундаментального анализа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ДИ_ПоказателиФундаментальногоАнализа.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ДИ_ПоказателиФундаментальногоАнализа.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

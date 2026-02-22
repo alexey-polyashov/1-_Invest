@@ -48,7 +48,10 @@
   <catalogs>Catalog.ДИ_Брокеры</catalogs>
   <catalogs>Catalog.ДИ_Валюты</catalogs>
   <catalogs>Catalog.ДИ_Портфели</catalogs>
+  <catalogs>Catalog.ДИ_СектораЭкономики</catalogs>
   <catalogs>Catalog.ДИ_ТипыАктивов</catalogs>
+  <catalogs>Catalog.ДИ_ЦенныеБумаги</catalogs>
+  <catalogs>Catalog.ДИ_Эмитенты</catalogs>
   <enums>Enum.ДИ_ВидОперацииДС</enums>
   <enums>Enum.ДИ_ВидСделки</enums>
   <enums>Enum.ДИ_ВидыЦенныхБумаг</enums>
@@ -59,4 +62,5 @@
   <enums>Enum.ДИ_ТипДохода</enums>
   <enums>Enum.ДИ_ТипыПодключенияБрокера</enums>
   <enums>Enum.ДИ_УровниРиска</enums>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДИ_ПоказателиФундаментальногоАнализа</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9d44a44-a34e-4a71-9c69-1981916d1de8">
+  <producedTypes>
+    <objectType typeId="7186e69e-c8be-49fb-9130-a93484f02045" valueTypeId="c513a132-e705-4cc6-8c37-e36ad32b1aae"/>
+    <refType typeId="1ff4d178-ba84-4dfd-a98e-790b575db6eb" valueTypeId="b3cd7a7a-383b-4513-808f-ed2f4bc493c7"/>
+    <selectionType typeId="1158e9c2-fc30-40ad-b3a1-9da4a96298bb" valueTypeId="9019028d-8034-4835-87cf-5d56bed76dae"/>
+    <listType typeId="8e2c066c-acc6-4de9-9552-af717080376f" valueTypeId="07aa0a36-8b6d-401d-b426-e5d58236d3dd"/>
+    <managerType typeId="41de1e24-8bd6-433e-8d77-ea9948757ef6" valueTypeId="57a69d20-c4e6-4640-9cc5-f76b2e216c44"/>
+  </producedTypes>
+  <name>ДИ_СектораЭкономики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сектора экономики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДИ_СектораЭкономики.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДИ_СектораЭкономики.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e57b9275-19b4-45d6-82b6-049dc1cb6eb9">
+      <name>Акции</name>
+      <description>Акции</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="9ae61d68-a164-4ee2-902c-7a2db33b7634">
+      <name>Облигации</name>
+      <description>Облигации</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="bd154e18-b945-497e-933f-cfc4813ae9da">
+      <name>ETF</name>
+      <description>ETF</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="567438ef-a4a7-4749-9bdf-24bdb3fa86a5">
+      <name>Валюта</name>
+      <description>Валюта</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="af408a62-f557-4750-b348-87701a133fcd">
+      <name>ДенежныеСредства</name>
+      <description>Денежные средства</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="3bc21b2c-3f8f-4680-ac39-f04dcfadf9e1">
+      <name>Производные</name>
+      <description>Производные</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="fbd8eb80-f682-4a33-9dae-60c97f2ae56a">
+      <name>СтруктурныеПродукты</name>
+      <description>Структурные продукты</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="1d49784e-a8da-432f-a7b2-2b9eeb5ee353">
+      <name>Криптоактивы</name>
+      <description>Криптоактивы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="28d8f429-8e6e-4430-aa3d-446ea830347b">
+      <name>Сырье</name>
+      <description>Сырье</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
