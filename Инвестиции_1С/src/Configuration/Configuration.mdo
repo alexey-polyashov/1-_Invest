@@ -52,6 +52,7 @@
   <catalogs>Catalog.ДИ_ТипыАктивов</catalogs>
   <catalogs>Catalog.ДИ_ЦенныеБумаги</catalogs>
   <catalogs>Catalog.ДИ_Эмитенты</catalogs>
+  <documents>Document.ДИ_Сделка</documents>
   <enums>Enum.ДИ_ВидОперацииДС</enums>
   <enums>Enum.ДИ_ВидСделки</enums>
   <enums>Enum.ДИ_ВидыЦенныхБумаг</enums>
