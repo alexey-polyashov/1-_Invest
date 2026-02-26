@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3da52971-4cd9-41c3-a3a5-91f32a3ad36b">
+  <producedTypes>
+    <refType typeId="ef825716-58b1-4d35-87ff-b179bd263b97" valueTypeId="33ee1fc5-b817-4c1d-8b8b-b2c19504295d"/>
+    <listType typeId="12640415-f25a-4b90-b6ef-a8e8323785c3" valueTypeId="8c5f7eb4-d948-4374-bcd7-8e4acd8ed94c"/>
+    <managerType typeId="d5157350-640c-4256-814a-45d7a7463ba8" valueTypeId="41eb3d3e-b0d7-4527-af30-81d293ccc808"/>
+  </producedTypes>
+  <name>ДИ_ВидыОперацийКорректировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид корректировки остатка</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b3c741fb-a66c-44e2-b646-dcc2af38edfb">
+    <name>Увеличение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увеличение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b544ca1f-95c8-4d4b-b54c-88c5d378bb30">
+    <name>Уменьшение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уменьшение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01a02491-5780-4d45-b7e4-f234aca077de">
+    <name>Установка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

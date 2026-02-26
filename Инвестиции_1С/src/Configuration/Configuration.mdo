@@ -52,9 +52,13 @@
   <catalogs>Catalog.ДИ_ТипыАктивов</catalogs>
   <catalogs>Catalog.ДИ_ЦенныеБумаги</catalogs>
   <catalogs>Catalog.ДИ_Эмитенты</catalogs>
+  <documents>Document.ДИ_ВводВыводДенежныхСредств</documents>
+  <documents>Document.ДИ_ДивидендыКупоныПогашения</documents>
+  <documents>Document.ДИ_КорректировкаОстатков</documents>
   <documents>Document.ДИ_Сделка</documents>
   <enums>Enum.ДИ_ВидОперацииДС</enums>
   <enums>Enum.ДИ_ВидСделки</enums>
+  <enums>Enum.ДИ_ВидыОперацийКорректировки</enums>
   <enums>Enum.ДИ_ВидыЦенныхБумаг</enums>
   <enums>Enum.ДИ_МетодыОценки</enums>
   <enums>Enum.ДИ_РекомендацииИИ</enums>

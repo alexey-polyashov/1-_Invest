@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="758b1e39-16f2-4f10-9448-7ce9909aaae7">
+  <producedTypes>
+    <objectType typeId="899bb2f5-df10-43f8-8ea1-5f0d365ae927" valueTypeId="ce4e1976-5fc2-4fd5-b6c2-5e4f982eee03"/>
+    <refType typeId="97b323b3-53af-447b-aa97-de07e678d625" valueTypeId="63a9ac39-bec3-4486-9bd6-326cdc21bf19"/>
+    <selectionType typeId="8e9396a4-0718-4165-a96a-f1722d285aa3" valueTypeId="dafeaaa5-2715-43bb-b372-192d82073f93"/>
+    <listType typeId="f626f23f-10de-4fe7-aef3-f9867df3ac42" valueTypeId="ed118826-5dae-43d8-824b-2ea5e2e080ac"/>
+    <managerType typeId="99c804e3-f26e-4024-9598-e7714bf90c35" valueTypeId="761ec76b-50da-44ff-848f-8bd8d9874d8c"/>
+  </producedTypes>
+  <name>ДИ_ВводВыводДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод вывод денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДИ_ВводВыводДенежныхСредств.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="a1d306d9-f7f7-402b-b33a-607316c2ca13">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="561b4993-7b7e-4220-b43a-b1bdb09e47d5">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДИ_ВидОперацииДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b8364176-d445-41f0-9a8f-68ec548b58ff">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

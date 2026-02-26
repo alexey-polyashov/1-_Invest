@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54e73e66-4f3f-422f-bc67-e62923c1845f">
+  <producedTypes>
+    <objectType typeId="29aca493-c418-4ce1-9108-d76b2b9f5180" valueTypeId="55b67a1d-877a-438e-a665-875548c2cfaa"/>
+    <refType typeId="36abe6e3-635e-4172-b8af-b837118e8eb4" valueTypeId="36240de9-d6f3-4208-a4e9-b2dabbd4b4f5"/>
+    <selectionType typeId="8e9ceb32-084d-449f-a1b5-b6c578e962ae" valueTypeId="b3a90ef3-953f-47e7-805b-ea823348f574"/>
+    <listType typeId="80eace85-ac21-4d62-ba0b-57050933b3b1" valueTypeId="8b5fbbc4-dcb6-4641-ae72-05dc3585d401"/>
+    <managerType typeId="10d60c7f-317d-4fe0-a87e-611bac9d13a6" valueTypeId="343ba51d-d68f-4aa0-ae28-51d18f14f69c"/>
+  </producedTypes>
+  <name>ДИ_КорректировкаОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировка остатков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДИ_КорректировкаОстатков.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4fc2f0a1-ea06-47f5-8228-bcad93a40280">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4fa53cf4-7064-4473-a089-b7798f9adcbc">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="9d95a3b4-b817-4f8c-9798-853f48fb5f23">
+    <producedTypes>
+      <objectType typeId="babd0479-eb25-4957-bdd4-88d85acb0b67" valueTypeId="93353757-8292-45fe-b43b-e71b6bc2928b"/>
+      <rowType typeId="a7e7fc09-d8eb-4d51-bf8c-417643351124" valueTypeId="e541662e-9217-43e7-9633-4f79e369f786"/>
+    </producedTypes>
+    <name>КорректируемыеАктивы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректируемые активы</value>
+    </synonym>
+    <attributes uuid="b3b958b6-8750-4e8c-9d12-8cb4776d4cfc">
+      <name>ТипАктива</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип актива</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДИ_ТипыАктивов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0b8c8876-de71-4a39-9e2d-1822e5d02a46">
+      <name>ВидОперации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид операции</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ДИ_ВидыОперацийКорректировки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4786d4ed-e16e-485f-b257-d0550f1b78b7">
+      <name>ЦеннаяБумага</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ценная бумага</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДИ_ЦенныеБумаги</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8ef8681d-45ed-4309-963f-f960f993c08a">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДИ_Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2c6bcbf7-b0cb-455a-aa3e-dbeb9f76e370">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2a32d7f2-be54-49b1-aa0d-4f2b3d06e9f4">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="47d1cd07-2392-4b1e-90e0-9b271877ba4a">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>
