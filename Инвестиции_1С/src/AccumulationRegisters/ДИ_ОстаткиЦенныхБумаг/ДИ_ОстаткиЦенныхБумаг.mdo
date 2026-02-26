@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a270fe8b-fa9b-4c32-8afa-3437654c4dd4">
+  <producedTypes>
+    <selectionType typeId="95878623-66a9-4246-8f83-857a35436c64" valueTypeId="bcd236da-905e-4dd2-99b5-379413791a03"/>
+    <listType typeId="bf71d3cb-97ae-4704-9e19-c658d53f6223" valueTypeId="967a5c4b-f56a-47a2-ae13-c0ab0d0f6524"/>
+    <managerType typeId="b380cd8b-466f-4837-977b-bd0536df1cfb" valueTypeId="24faf0a5-5d2f-49af-add8-8c741fb2fe2a"/>
+    <recordSetType typeId="d9bfa0ed-df5b-493e-8e5e-1fcd612e238d" valueTypeId="7250291f-a83f-49f1-bfd3-3f6bc391dce0"/>
+    <recordKeyType typeId="2b640891-6ba6-405c-b046-2cbd1fceee9c" valueTypeId="55282287-1bf8-4161-8c08-ef66eba03030"/>
+    <recordType typeId="786ded48-58ca-47e9-935f-df0e27f0eb17" valueTypeId="6855da07-7720-4387-9e08-48bdd8896238"/>
+  </producedTypes>
+  <name>ДИ_ОстаткиЦенныхБумаг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки ценных бумаг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="9efe083d-b4e9-4eb8-9bb9-0f693738a084">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="25fb74b7-99fc-49ba-89f1-c61121433866">
+    <name>ОбщаяСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="5fd2b16f-e9ae-425e-afcd-4903c711579c">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="26de164e-a51a-4f73-a87a-5f87c4b6317d">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b56fbdec-54da-41c3-9065-4934edf1d3da">
+    <name>ЦеннаяБумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценная бумага</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_ЦенныеБумаги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

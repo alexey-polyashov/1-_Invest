@@ -67,5 +67,9 @@
   <enums>Enum.ДИ_ТипДохода</enums>
   <enums>Enum.ДИ_ТипыПодключенияБрокера</enums>
   <enums>Enum.ДИ_УровниРиска</enums>
+  <accumulationRegisters>AccumulationRegister.ДИ_ДенежныеСредстваПортфелей</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДИ_ОстаткиЦенныхБумаг</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДИ_ПартииЦенныхБумаг</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДИ_РеализованныеПрибылиУбытки</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДИ_ПоказателиФундаментальногоАнализа</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

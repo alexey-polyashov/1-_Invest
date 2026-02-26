@@ -23,6 +23,9 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ДИ_ПартииЦенныхБумаг</registerRecords>
+  <registerRecords>AccumulationRegister.ДИ_ОстаткиЦенныхБумаг</registerRecords>
+  <registerRecords>AccumulationRegister.ДИ_РеализованныеПрибылиУбытки</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="038475dc-d81e-4623-8f23-9ab21e55b510">

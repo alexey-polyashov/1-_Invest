@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb18cb1d-698a-4495-8576-089269bc2a07">
+  <producedTypes>
+    <selectionType typeId="25b91a14-e6e5-4c4c-85a5-6d777e811c14" valueTypeId="d7de3802-696e-4d20-a5b0-60b8c4ffb32d"/>
+    <listType typeId="933d0589-d5c0-4ed3-ba8a-d92e525d0e21" valueTypeId="9474e185-5a48-4382-a824-c3c48f76ec4e"/>
+    <managerType typeId="6b36b013-336d-48f9-b2ab-61b1c1167f8d" valueTypeId="7f53b3cf-a21e-460a-939e-6a7668031bbe"/>
+    <recordSetType typeId="e76c3146-9eaf-41ea-b977-ba6b1af126f4" valueTypeId="117adfc1-91c2-4aa2-a6a5-1fd1ce5caf32"/>
+    <recordKeyType typeId="fe67e7d4-e7f2-4a7a-adac-52f72a4c7313" valueTypeId="6aa9059d-7357-4ded-83ca-02d6344a21ef"/>
+    <recordType typeId="69e09c24-c764-41c5-839e-d3176e3e5c24" valueTypeId="d94ff418-df3e-42bf-a00b-ab7913063501"/>
+  </producedTypes>
+  <name>ДИ_ПартииЦенныхБумаг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партии ценных бумаг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="cfbbf6ea-7c33-45f3-a17e-911abc580af6">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="b5d0b905-041a-49cd-b5ba-beaee46756d1">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="d115ce21-bf52-4aea-9098-a801864a9418">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="f1615052-5a6e-4006-a5fd-dc4469801b7b">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c2ae649a-1d4f-4c88-8432-141e89284ed7">
+    <name>ЦеннаяБумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценная бумага</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_ЦенныеБумаги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="73ec5546-c4bb-46e2-bed8-e9916ba48df7">
+    <name>ДокументПриобретения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ приобретения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ДИ_КорректировкаОстатков</types>
+      <types>DocumentRef.ДИ_Сделка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
