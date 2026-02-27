@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="935b46b8-321d-45ba-be05-a6150be50a1f">
+  <producedTypes>
+    <selectionType typeId="f5a49c3f-2c2e-4972-a1ed-487d7dde0b02" valueTypeId="b1216183-ba48-4b66-bb29-f6133700918e"/>
+    <listType typeId="a04b8b83-cfd3-43c7-a3ac-6e49641cca44" valueTypeId="2be8ccbd-c6a8-4e8e-ac46-7cf70c2bb200"/>
+    <managerType typeId="cfbbaeb6-5ad6-42e2-83a9-29896085f130" valueTypeId="88cc719a-1f54-4765-9265-2de2993e6e59"/>
+    <recordSetType typeId="acb890e8-7959-49dc-9947-a453b42befb4" valueTypeId="8388e499-63c2-44a7-bccd-6c8ea3640012"/>
+    <recordKeyType typeId="b4b45b87-a267-4c81-abfe-62c9fe926876" valueTypeId="3e157093-4d35-4148-b820-eee00b8482e2"/>
+    <recordType typeId="c3045f1d-9412-456c-9361-77cca8272231" valueTypeId="619ecfbd-7917-445a-b212-9c2101822128"/>
+    <recordManagerType typeId="efb0f5de-bdec-4a64-a8d8-fe43bd68da34" valueTypeId="39b1a6e5-8761-445b-9b2f-b3fc575487fb"/>
+  </producedTypes>
+  <name>ДИ_НастройкиПодключенияКБрокеру</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки подключения к брокеру</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8c268cf4-c6f6-4c3a-9eb7-3a957302f827">
+    <name>Включен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b25214b2-7fdb-4df7-8f72-f3baf2d33f69">
+    <name>ТипПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип подключения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДИ_ТипыПодключенияБрокера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="59fb4dae-07c2-41dc-8610-b6cb51760b07">
+    <name>URL</name>
+    <synonym>
+      <key>ru</key>
+      <value>URL</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="a4efd4e9-1743-4234-87cf-1f7d9c4d3429">
+    <name>ТокенШифрованный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен шифрованный</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="68ff0444-9e86-4188-bffd-c643d84fff94">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="9a4e58cb-512c-4cca-af4a-1854712c872e">
+    <name>ПарольШифрованный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль шифрованный</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fc0c1696-7c9f-4817-8f83-7a38e31cfcfc">
+    <name>ПутьКФайлам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлам</value>
+    </synonym>
+    <comment>для обмена фалами</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="f9ce6f9a-5aea-4983-ae64-f69217e1f057">
+    <name>ВнешняяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя обработка</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="29a39194-8cba-49d1-8901-bd4be3b6c03e">
+    <name>Брокер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брокер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_Брокеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6a80bfdd-91f3-468b-bb27-8c3e41808211">
+    <name>Профиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

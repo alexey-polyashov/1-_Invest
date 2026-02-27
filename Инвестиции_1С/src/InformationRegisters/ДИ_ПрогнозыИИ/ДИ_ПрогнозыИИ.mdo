@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8349603a-c510-49d1-8239-1c2521de10d8">
+  <producedTypes>
+    <selectionType typeId="b164cee7-b8a4-4ea3-9f20-eaab7be90577" valueTypeId="437c1fc2-67e9-4660-b00f-083d03158e2f"/>
+    <listType typeId="c8359d4a-fdd9-42a2-8993-1d554f9e3bc0" valueTypeId="85c2b96c-5800-4585-92fe-e7df88c6ba08"/>
+    <managerType typeId="43794836-bb06-44c3-8db2-23dc13459c08" valueTypeId="f561d0c7-d5b6-4f1f-a378-898bb4ca2694"/>
+    <recordSetType typeId="61babe37-cca1-4d3f-89c4-8d204359b975" valueTypeId="7ec98942-69a4-42b5-afb4-01e0640595d2"/>
+    <recordKeyType typeId="64c3c878-d6d4-460a-b638-14e0de457dce" valueTypeId="1583b124-a7b3-4a27-b056-a865dc53f944"/>
+    <recordType typeId="d9474f89-8808-4153-a055-e67967e450e2" valueTypeId="cd9b7656-f898-4baa-96ce-b3dd9733d171"/>
+    <recordManagerType typeId="ba1a24e8-6c5a-48b6-aec8-1a3969590b0d" valueTypeId="e969adb3-9520-4921-9a18-a585d2837f7e"/>
+  </producedTypes>
+  <name>ДИ_ПрогнозыИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прогнозы ИИ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e65301f2-4a1b-489a-980c-9853b51bc9fa">
+    <name>ТаргетЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таргет цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c29302aa-2f63-45f2-bdb0-90998cdbdb4e">
+    <name>Рекомендация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендация</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДИ_РекомендацииИИ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="aac9356c-22fd-411c-864d-1e58f46966dd">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="4ce1eaf4-0967-4c3f-8492-97e35a7aec2f">
+    <name>УровеньУверенности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень уверенности</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9fbf7edd-c39a-463d-82fc-4510198ec242">
+    <name>ЦеннаяБумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценная бумага</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_ЦенныеБумаги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="dfc6eecf-57c5-4a06-bc97-16e9ce6e69b6">
+    <name>ДатаПрогноза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата прогноза</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c9c1732e-e3c8-4661-a4fa-db1c82235f5b">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

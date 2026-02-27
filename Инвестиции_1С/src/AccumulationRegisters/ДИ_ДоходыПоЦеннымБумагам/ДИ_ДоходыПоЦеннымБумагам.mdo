@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5263bb91-53e8-49dc-9a7b-ea56f4b545fa">
+  <producedTypes>
+    <selectionType typeId="8c713539-0399-4ebd-aa69-799bc9c62e05" valueTypeId="75deb99e-ecee-4417-9a11-45c6496f02d8"/>
+    <listType typeId="d7129089-a222-4420-847d-92f8baa7ff49" valueTypeId="1020631d-cbed-4e0c-b5a6-57c0e8f8a02d"/>
+    <managerType typeId="840b2135-2378-456e-99dd-827bc51114fe" valueTypeId="bccb74a6-9a29-49b1-a9cb-a7bd2969fe04"/>
+    <recordSetType typeId="9649c1b6-876c-489c-8ca2-f5e9f279bb06" valueTypeId="fc90afc9-5daa-4e75-b621-eb08dddcbbea"/>
+    <recordKeyType typeId="a8b406a3-bcb4-403d-bcf5-e27fe4838cea" valueTypeId="8623eb41-1f12-41f9-b160-6ae2fc7349b9"/>
+    <recordType typeId="c81a75ad-0a20-4a0a-9cfc-53115898eb99" valueTypeId="7e12f44e-69fa-402c-94e6-0e5c2c5a00a4"/>
+  </producedTypes>
+  <name>ДИ_ДоходыПоЦеннымБумагам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доходы по ценным бумагам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f22f27e9-19d6-4273-bc69-f22c394acd96">
+    <name>СуммаДохода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма дохода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="e17e61f5-b63f-414f-8da8-dc0ec8004fc1">
+    <name>СуммаНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма налога</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="adbbcdfd-f94a-4f5a-b24a-c06159a48b79">
+    <name>ТипДохода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип дохода</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДИ_ТипДохода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e10d503c-2774-4a7a-afdb-55c62f090607">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="190a8c1d-e7e9-4ed0-b187-ea64649f419c">
+    <name>ДатаВыплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выплаты</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="72541b3d-8b9b-4c08-9b80-1fd9d31b74e8">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d605852c-93d6-4553-8534-9a382e2cb99f">
+    <name>ЦеннаяБумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценная бумага</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_ЦенныеБумаги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

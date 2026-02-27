@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccd18168-a197-4876-84d1-a72ff497d29e">
+  <producedTypes>
+    <selectionType typeId="5c376f81-832d-4be8-bc34-58991f5213df" valueTypeId="9436232a-252a-4ba3-88fb-4e59c68c3782"/>
+    <listType typeId="333aaac4-e00f-4428-b8de-93d4cdb46b90" valueTypeId="15da3621-4370-4227-b205-92c332a5dbcc"/>
+    <managerType typeId="8785f34e-16a5-474d-89c6-4a7a4500e14d" valueTypeId="b4ce16f0-3eef-49f8-9461-5da4c39c9770"/>
+    <recordSetType typeId="5fed076a-609b-4d56-9635-c05d59a7d3b2" valueTypeId="09ecb44d-83d2-428b-b44d-b7f9ce200784"/>
+    <recordKeyType typeId="5bf9ddf8-3791-4175-aa54-0976b53074ca" valueTypeId="9fe0bcc2-8441-41a6-a221-6597b47c37c0"/>
+    <recordType typeId="69ae07d2-11d8-48ba-9c1f-23553c0ae924" valueTypeId="c0b2eb8f-7d23-4a93-8c5f-fe9ef38d21f8"/>
+    <recordManagerType typeId="ef09aecd-bc17-4621-8bf1-797348d8171a" valueTypeId="5faf54df-9df9-48df-adb0-0181e33d7a3d"/>
+  </producedTypes>
+  <name>ДИ_ФундаментальныеПоказатели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фундаментальные показатели</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e7778b9d-303a-43bf-ac4c-9cd1501d3666">
+    <name>ЗначениеПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение показателя</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ДИ_ПоказателиФундаментальногоАнализа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="487240d3-84c7-438e-bbc8-c2912508b9e8">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="6d69b1c6-b530-4430-bb3e-50c0cf761ee0">
+    <name>ЦеннаяБумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценная бумага</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_ЦенныеБумаги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="e7c73fbf-6460-4332-b47e-94ff1c57e8be">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ДИ_ПоказателиФундаментальногоАнализа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

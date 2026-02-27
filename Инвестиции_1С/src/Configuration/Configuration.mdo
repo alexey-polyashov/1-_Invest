@@ -67,7 +67,15 @@
   <enums>Enum.ДИ_ТипДохода</enums>
   <enums>Enum.ДИ_ТипыПодключенияБрокера</enums>
   <enums>Enum.ДИ_УровниРиска</enums>
+  <informationRegisters>InformationRegister.ДИ_BenchmarksИндексы</informationRegisters>
+  <informationRegisters>InformationRegister.ДИ_НастройкиПодключенияКБрокеру</informationRegisters>
+  <informationRegisters>InformationRegister.ДИ_НовостнойФон</informationRegisters>
+  <informationRegisters>InformationRegister.ДИ_ПрогнозыИИ</informationRegisters>
+  <informationRegisters>InformationRegister.ДИ_РыночныеЦены</informationRegisters>
+  <informationRegisters>InformationRegister.ДИ_СоответствиеИнструментовБрокеров</informationRegisters>
+  <informationRegisters>InformationRegister.ДИ_ФундаментальныеПоказатели</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДИ_ДенежныеСредстваПортфелей</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДИ_ДоходыПоЦеннымБумагам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДИ_ОстаткиЦенныхБумаг</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДИ_ПартииЦенныхБумаг</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДИ_РеализованныеПрибылиУбытки</accumulationRegisters>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3765794-3339-4cd4-8857-f647cf159c24">
+  <producedTypes>
+    <selectionType typeId="604d5aa5-dd5b-4601-bcfb-ad5c1e848085" valueTypeId="b7be4e15-43b1-41d6-9095-7a3670fd0295"/>
+    <listType typeId="2c6917e8-318f-4c5a-868c-69a5938f9bbd" valueTypeId="d592bbcd-8eb9-4a24-b134-e29cb560df47"/>
+    <managerType typeId="9e354187-1e52-441d-ab53-3d492a767ecc" valueTypeId="54cd2135-e260-492b-bbef-36bf1e6ce439"/>
+    <recordSetType typeId="acb53f74-e1b5-490b-8b35-507f3536e7d2" valueTypeId="4ed0788f-4753-4619-bf51-c1c8fe5c0199"/>
+    <recordKeyType typeId="46e9adf0-67c0-4a46-b030-b1453e6edc4b" valueTypeId="de46f0a1-e4fd-4dbe-b15b-6cf84617175a"/>
+    <recordType typeId="335b5b13-3c86-4730-93c7-04352c350acb" valueTypeId="456377a6-8b2b-464d-8954-f27c39e398a6"/>
+    <recordManagerType typeId="f16f06fe-ff09-49e0-acb5-f48cbd2a7781" valueTypeId="4dcb0e4e-9d36-4504-a689-f9ebb4b2eae0"/>
+  </producedTypes>
+  <name>ДИ_BenchmarksИндексы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Benchmarks индексы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7294cb17-ca7f-4917-8d1e-0e6169e2630a">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fe4aaeff-f9ea-4e0c-b459-1185a0e4e726">
+    <name>Индекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс</value>
+    </synonym>
+    <comment>IMOEX, SPX и т.д.</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

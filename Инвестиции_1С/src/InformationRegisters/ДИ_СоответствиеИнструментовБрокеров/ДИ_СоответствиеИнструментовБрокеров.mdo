@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f8d67a4-699d-4a86-b872-cffbc0e76399">
+  <producedTypes>
+    <selectionType typeId="7803ad04-a750-44ea-bd18-fab09fcf8489" valueTypeId="c47df4cd-cf0a-463f-b7df-dfe8921a3834"/>
+    <listType typeId="1b20a9b5-8503-4b93-8d62-6d79377b086e" valueTypeId="3a6fc15c-6370-43c8-89a5-cd7c361bb076"/>
+    <managerType typeId="94956538-eb41-485b-9017-89730b2616ba" valueTypeId="97d77454-63b6-4e57-855d-aca0ee9e50db"/>
+    <recordSetType typeId="0ebac785-66ba-4293-926e-83bc64eeb932" valueTypeId="f8e54ec0-de0c-4448-a76c-48ed229c2dd2"/>
+    <recordKeyType typeId="a8afcf19-3716-419c-b574-bdbb14034166" valueTypeId="b38fa4a3-9c73-4f7a-8fa4-80ede76788ba"/>
+    <recordType typeId="34964f8b-9932-46c3-9eb4-e88ade2f934c" valueTypeId="83def034-7d7e-4022-bcba-7002007192ff"/>
+    <recordManagerType typeId="07994d7b-db7b-441c-88a2-4e0bc52a25d8" valueTypeId="3f819b7c-29b3-4e20-abc8-0eec6cd5142b"/>
+  </producedTypes>
+  <name>ДИ_СоответствиеИнструментовБрокеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие инструментов брокеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="76398667-4980-435d-89a1-f044b9f0e5d6">
+    <name>КодИнструментаБрокера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код инструмента брокера</value>
+    </synonym>
+    <comment>Идентификатор в системе брокера</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="dd700c11-5344-45f5-960b-1ae449e95129">
+    <name>Площадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадка</value>
+    </synonym>
+    <comment>Код биржевой площадки (TQBR и т.п.)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="ec37b136-3d1e-4be6-a90e-83306f1e1f68">
+    <name>Брокер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брокер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_Брокеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f4b1ea27-6cb8-4341-806d-d1e24473adc6">
+    <name>ЦеннаяБумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценная бумага</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_ЦенныеБумаги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="535a17d5-5848-4588-bec4-1e28f22b5225">
+  <producedTypes>
+    <selectionType typeId="f5cc9237-fbc4-4e2f-96dc-142d7feb561d" valueTypeId="30601c60-9fe1-4301-a496-7d7bb43c2d9a"/>
+    <listType typeId="32559647-6c81-45b0-bcd3-1caa0aac002e" valueTypeId="8e53696d-0f4b-4010-a1c5-7c51728211be"/>
+    <managerType typeId="7482e121-6094-455e-8140-2f8d64eb139b" valueTypeId="78b98a15-481b-409e-b53c-1cf391ddae49"/>
+    <recordSetType typeId="c8cd0bb5-b129-4820-8731-79ba242e857a" valueTypeId="2e32e97d-093d-47ce-af36-f92106fa150f"/>
+    <recordKeyType typeId="b65b7c8e-ea94-4e7e-a16d-ddeac1371c0f" valueTypeId="92c6de30-8c84-43c3-aab1-b8eb11d58ff0"/>
+    <recordType typeId="863e7e95-3bd1-492a-9a15-96af0c82d93b" valueTypeId="5847daba-1330-464f-8b47-2417accc3f31"/>
+    <recordManagerType typeId="614676cd-9861-43b7-9ec1-cc7bb71c0b5e" valueTypeId="bf860b40-cfc0-4879-943a-3b5cb220b11b"/>
+  </producedTypes>
+  <name>ДИ_НовостнойФон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новостной фон</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="519402f5-55e9-4edd-899a-e20c967b7fc6">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="7060b245-896e-4edf-9dc0-34f943bc4c59">
+    <name>Тональность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тональность</value>
+    </synonym>
+    <comment>-1 негатив, 0 нейтрально, 1 позитив</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6c919b96-b23c-4281-b4d3-aa91a373b92e">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="9f38d1a9-a42e-460b-9d21-01cd588653d9">
+    <name>ЦеннаяБумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценная бумага</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_ЦенныеБумаги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="d77d234c-9edf-4048-aedd-0fb9f56c5fc9">
+    <name>ДатаНовости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата новости</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d7489f5f-7e91-40fd-8469-46a4d59a0e98">
+    <name>Заголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

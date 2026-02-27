@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4c4d2ba-0f63-4477-a24a-5d88d36cd574">
+  <producedTypes>
+    <selectionType typeId="d0b9924f-5e25-44b3-90aa-fb66d275cd5a" valueTypeId="d124d495-accf-433a-a120-5f0aa4bb4a92"/>
+    <listType typeId="d148eb81-8789-4bbe-98c1-c291013d6da6" valueTypeId="fd9b96dc-e0cd-4c81-99e2-114a544c8c02"/>
+    <managerType typeId="6de69f6c-dbfe-4c4b-9aea-a8c04f1d798e" valueTypeId="255405f1-834a-427b-a1c7-3303baedb0e6"/>
+    <recordSetType typeId="36bf187a-8a7c-47de-b595-85f4722f689c" valueTypeId="23960d30-7747-4c14-87dd-310cc0199b2a"/>
+    <recordKeyType typeId="60598c2a-233e-4f3c-b764-3c58771e5072" valueTypeId="3bc01c64-7ee3-45b7-827f-d2a698c39568"/>
+    <recordType typeId="804e7af9-5837-49ba-83e9-195b84c417da" valueTypeId="0cbd4ee5-1855-49db-b048-d8d5f510ff01"/>
+    <recordManagerType typeId="049d4f6d-39ce-4365-91c3-78c7afd41be2" valueTypeId="819a19cc-e20c-4b8a-aad2-5b5c81138a7d"/>
+  </producedTypes>
+  <name>ДИ_РыночныеЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рыночные цены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="aa30bd93-6834-44d6-8981-c3aa2f92d5f5">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="fe5f3fc3-08b2-4d37-9a58-1e2e82c0b36b">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a6946707-9fa1-4386-9cb5-06e35ccd48f9">
+    <name>ЦеннаяБумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценная бумага</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДИ_ЦенныеБумаги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:InformationRegister>
