@@ -126,10 +126,10 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="eb6f1ce4-b681-4ecb-9e8e-caa1aff618d4">
-    <name>ДокументПриобретения</name>
+    <name>ДокументПриобретенияПродажи</name>
     <synonym>
       <key>ru</key>
-      <value>Документ приобретения</value>
+      <value>Документ приобретения продажи</value>
     </synonym>
     <type>
       <types>DocumentRef.ДИ_Сделка</types>

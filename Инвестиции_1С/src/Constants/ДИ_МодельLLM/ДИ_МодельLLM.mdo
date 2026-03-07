@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5254fdf-d251-4811-aecc-71af4ccb6fb9">
+  <producedTypes>
+    <managerType typeId="85582be6-f468-4106-a025-2a24cde815bc" valueTypeId="502a0b43-92e2-4270-a7ca-2719802cdea1"/>
+    <valueManagerType typeId="be0940fb-7c16-4d07-91dc-b08ff72bb8d3" valueTypeId="319620cc-06d1-4fec-8af6-f25fba9f32ce"/>
+    <valueKeyType typeId="b856760d-5e62-4b9e-bbdd-57792ba7cb0f" valueTypeId="2a0c3628-20cd-477a-8a1a-ce55e5f52eb7"/>
+  </producedTypes>
+  <name>ДИ_МодельLLM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модель LLM</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>250</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

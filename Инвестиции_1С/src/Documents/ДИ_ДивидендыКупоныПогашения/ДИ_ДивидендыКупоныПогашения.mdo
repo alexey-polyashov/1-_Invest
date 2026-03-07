@@ -23,6 +23,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ДИ_ДоходыПоЦеннымБумагам</registerRecords>
+  <registerRecords>AccumulationRegister.ДИ_ДенежныеСредстваПортфелей</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="86ffd72a-0077-4311-8e83-23e5e90ea23d">

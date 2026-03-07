@@ -7,4 +7,15 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Enum.ДИ_РекомендацииИИ</content>
+  <content>ChartOfCharacteristicTypes.ДИ_ПоказателиФундаментальногоАнализа</content>
+  <content>InformationRegister.ДИ_ФундаментальныеПоказатели</content>
+  <content>InformationRegister.ДИ_ПрогнозыИИ</content>
+  <content>InformationRegister.ДИ_НовостнойФон</content>
+  <content>CommonModule.СоветникИнтеграцияИИ</content>
+  <content>DataProcessor.ДИ_НастройкиСоветникаИИ</content>
+  <content>DataProcessor.ДИ_СформироватьПрогноз</content>
+  <content>ScheduledJob.ДИ_СборДанныхДляИИ</content>
+  <content>Constant.ДИ_МодельLLM</content>
+  <content>Constant.ДИ_ИИКлючAPI</content>
 </mdclass:Subsystem>

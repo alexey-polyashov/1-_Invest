@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63c3d79a-4bba-4f2f-a263-9eff8a7be23a">
+  <producedTypes>
+    <objectType typeId="8f36a1e4-8322-4657-8464-778311abda48" valueTypeId="e0836ba4-4511-43ed-9606-5f7bf690ea96"/>
+    <managerType typeId="e536269c-a5a3-48ed-97da-60abb5d7881c" valueTypeId="0dcbbd54-721b-4123-abd1-2a3862c707a8"/>
+  </producedTypes>
+  <name>ДИ_ЗагрузкаСделокИзФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка сделок из файлов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <commands uuid="3bd9c41c-70e0-450b-b8c3-163f42803fe2">
+    <name>ЗагрузитьСделкиИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузить сделки из файла</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -44,7 +44,14 @@
   <subsystems>Subsystem.ДИ_Портфели</subsystems>
   <subsystems>Subsystem.ДИ_Сделки</subsystems>
   <subsystems>Subsystem.ДИ_СоветникИИ</subsystems>
+  <commonModules>CommonModule.ДИ_АналитикаДоходность</commonModules>
   <commonModules>CommonModule.ДИ_БрокерыДиспетчер</commonModules>
+  <commonModules>CommonModule.ДИ_ПортфелиСтоимость</commonModules>
+  <commonModules>CommonModule.СоветникИнтеграцияИИ</commonModules>
+  <scheduledJobs>ScheduledJob.ДИ_ОбновлениеРыночныхЦен</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ДИ_СборДанныхДляИИ</scheduledJobs>
+  <constants>Constant.ДИ_ИИКлючAPI</constants>
+  <constants>Constant.ДИ_МодельLLM</constants>
   <catalogs>Catalog.ДИ_Брокеры</catalogs>
   <catalogs>Catalog.ДИ_Валюты</catalogs>
   <catalogs>Catalog.ДИ_Портфели</catalogs>
@@ -67,6 +74,14 @@
   <enums>Enum.ДИ_ТипДохода</enums>
   <enums>Enum.ДИ_ТипыПодключенияБрокера</enums>
   <enums>Enum.ДИ_УровниРиска</enums>
+  <reports>Report.ДИ_ДивидендныйКупонныйКалендарь</reports>
+  <reports>Report.ДИ_ДинамикаСтоимости</reports>
+  <reports>Report.ДИ_ДоходностьПортфеля</reports>
+  <reports>Report.ДИ_РеестрСделок</reports>
+  <dataProcessors>DataProcessor.АдаптерБроккера_Финам</dataProcessors>
+  <dataProcessors>DataProcessor.ДИ_ЗагрузкаСделокИзФайлов</dataProcessors>
+  <dataProcessors>DataProcessor.ДИ_НастройкиСоветникаИИ</dataProcessors>
+  <dataProcessors>DataProcessor.ДИ_СформироватьПрогноз</dataProcessors>
   <informationRegisters>InformationRegister.ДИ_BenchmarksИндексы</informationRegisters>
   <informationRegisters>InformationRegister.ДИ_НастройкиПодключенияКБрокеру</informationRegisters>
   <informationRegisters>InformationRegister.ДИ_НовостнойФон</informationRegisters>

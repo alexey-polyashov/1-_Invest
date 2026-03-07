@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a2957b1-abed-4463-9c3f-8f703a8c8bea">
+  <name>ДИ_СборДанныхДляИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор данных для ИИ</value>
+  </synonym>
+  <methodName>CommonModule.СоветникИнтеграцияИИ.ДИ_СборДанныхДляИИ</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

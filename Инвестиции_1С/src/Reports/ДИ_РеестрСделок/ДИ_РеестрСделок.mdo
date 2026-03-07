@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="796c4029-4359-4482-bcb6-aeb0ffadfdd7">
+  <producedTypes>
+    <objectType typeId="5d6820ed-56dc-4699-8e97-5ae6cc457f68" valueTypeId="ca570aa0-a166-4928-986f-07e69b9c2bca"/>
+    <managerType typeId="85712e2c-d4eb-4a31-8a92-b093892aa74a" valueTypeId="a5a9a7ac-1efd-40fa-bfc3-4886a06829c4"/>
+  </producedTypes>
+  <name>ДИ_РеестрСделок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр сделок  (FIFO-калькуляция)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="2314b05a-e122-478c-8f9c-f1a5b9fdaf56">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="fb4cc5dd-9947-449e-a1f9-d02ea1f88e66">
+    <name>РеестрСделок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр сделок</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

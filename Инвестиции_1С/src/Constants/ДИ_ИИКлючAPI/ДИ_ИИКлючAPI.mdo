@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d49dc87-eb90-40c9-a5b0-104eb027edf8">
+  <producedTypes>
+    <managerType typeId="07ee9d5d-e779-4775-a314-56b2475209b8" valueTypeId="9b6819b3-856c-43a9-ba84-48a29da30e12"/>
+    <valueManagerType typeId="4afce271-a18e-427d-bdc6-508d6bbb36e3" valueTypeId="1d9e360a-73a8-4260-bb84-20517e52e275"/>
+    <valueKeyType typeId="3672f1d3-7b00-463c-898c-0c03d816fcb7" valueTypeId="5e434a7f-ea6c-463a-b680-019c5cbe6691"/>
+  </producedTypes>
+  <name>ДИ_ИИКлючAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключ API (ИИ)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>36</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

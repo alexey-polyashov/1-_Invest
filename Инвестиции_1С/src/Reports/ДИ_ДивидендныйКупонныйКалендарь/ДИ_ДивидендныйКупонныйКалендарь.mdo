@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="402d4fef-1868-41c0-bd9e-386d5c1248ee">
+  <producedTypes>
+    <objectType typeId="15c6d2c4-f10c-4ccf-b0b6-7e2ca9ec07cc" valueTypeId="5d7fcd0a-2083-4571-b48a-61f8765b166c"/>
+    <managerType typeId="293eddd2-9a37-4f96-acbc-8031eb5be51a" valueTypeId="b22d7171-0f3e-4fb6-b0b2-ff3270e09f9a"/>
+  </producedTypes>
+  <name>ДИ_ДивидендныйКупонныйКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дивидендный/купонный календарь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="55363fda-cd61-4a24-9fa0-d30b5759e6e1">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="daccef7b-734f-4ede-9ddc-de245c327bbd">
+    <name>ДивидендныйИКупонныйКалендарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дивидендный и купонный календарь</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

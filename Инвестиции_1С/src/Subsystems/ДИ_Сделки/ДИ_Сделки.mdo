@@ -7,4 +7,16 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Enum.ДИ_ВидСделки</content>
+  <content>Enum.ДИ_ВидОперацииДС</content>
+  <content>Enum.ДИ_ТипДохода</content>
+  <content>Enum.ДИ_ТипДанныхБрокеров</content>
+  <content>Document.ДИ_Сделка</content>
+  <content>Document.ДИ_ВводВыводДенежныхСредств</content>
+  <content>Document.ДИ_ДивидендыКупоныПогашения</content>
+  <content>Document.ДИ_КорректировкаОстатков</content>
+  <content>AccumulationRegister.ДИ_ПартииЦенныхБумаг</content>
+  <content>AccumulationRegister.ДИ_ДенежныеСредстваПортфелей</content>
+  <content>DataProcessor.ДИ_ЗагрузкаСделокИзФайлов</content>
+  <content>Report.ДИ_РеестрСделок</content>
 </mdclass:Subsystem>

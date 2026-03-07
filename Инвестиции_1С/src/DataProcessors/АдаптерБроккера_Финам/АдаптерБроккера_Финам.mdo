@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4397a037-70a9-4287-874d-2810eff0a2d6">
+  <producedTypes>
+    <objectType typeId="df6ba359-03be-4a6a-b313-085f950bd913" valueTypeId="0c4f0297-8144-4a5c-9cea-8f159b8ce89c"/>
+    <managerType typeId="d01c539b-37d9-482b-8931-bb7998310f6c" valueTypeId="1317ed67-09f4-4196-ab79-e9d54cc29b53"/>
+  </producedTypes>
+  <name>АдаптерБроккера_Финам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адаптер броккера Финам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3da87a51-947c-4725-a574-7996e38725fd">
+  <producedTypes>
+    <objectType typeId="60c08543-fb96-4929-84b6-473d5f0dd6c8" valueTypeId="2f1fa418-6a70-4451-b48f-1ac237b201f7"/>
+    <managerType typeId="1460fa3e-f20a-47d4-b3fb-98598fef44e3" valueTypeId="28ac983d-d449-46e7-a36a-7701e297c7a3"/>
+  </producedTypes>
+  <name>ДИ_НастройкиСоветникаИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки советника ИИ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <commands uuid="b62794b4-f783-44ca-b4b6-c4186b92b031">
+    <name>НастройкиСоветникаИИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки советника ИИ</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

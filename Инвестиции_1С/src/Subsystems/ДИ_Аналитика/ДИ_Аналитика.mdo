@@ -7,4 +7,15 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.ДИ_РеализованныеПрибылиУбытки</content>
+  <content>AccumulationRegister.ДИ_ДоходыПоЦеннымБумагам</content>
+  <content>InformationRegister.ДИ_РыночныеЦены</content>
+  <content>InformationRegister.ДИ_BenchmarksИндексы</content>
+  <content>CommonModule.ДИ_АналитикаДоходность</content>
+  <content>CommonModule.ДИ_ПортфелиСтоимость</content>
+  <content>ScheduledJob.ДИ_ОбновлениеРыночныхЦен</content>
+  <content>Report.ДИ_РеестрСделок</content>
+  <content>Report.ДИ_ДоходностьПортфеля</content>
+  <content>Report.ДИ_ДинамикаСтоимости</content>
+  <content>Report.ДИ_ДивидендныйКупонныйКалендарь</content>
 </mdclass:Subsystem>

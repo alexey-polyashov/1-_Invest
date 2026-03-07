@@ -7,4 +7,15 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Enum.ДИ_СтатусыПортфеля</content>
+  <content>Enum.ДИ_УровниРиска</content>
+  <content>Enum.ДИ_ВидыЦенныхБумаг</content>
+  <content>Enum.ДИ_МетодыОценки</content>
+  <content>Catalog.ДИ_Портфели</content>
+  <content>Catalog.ДИ_Эмитенты</content>
+  <content>Catalog.ДИ_ТипыАктивов</content>
+  <content>Catalog.ДИ_СектораЭкономики</content>
+  <content>Catalog.ДИ_ЦенныеБумаги</content>
+  <content>Catalog.ДИ_Валюты</content>
+  <content>AccumulationRegister.ДИ_ОстаткиЦенныхБумаг</content>
 </mdclass:Subsystem>
