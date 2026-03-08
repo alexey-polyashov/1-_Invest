@@ -47,7 +47,7 @@
   <commonModules>CommonModule.ДИ_АналитикаДоходность</commonModules>
   <commonModules>CommonModule.ДИ_БрокерыДиспетчер</commonModules>
   <commonModules>CommonModule.ДИ_ПортфелиСтоимость</commonModules>
-  <commonModules>CommonModule.СоветникИнтеграцияИИ</commonModules>
+  <commonModules>CommonModule.ДИ_СоветникИнтеграцияИИ</commonModules>
   <scheduledJobs>ScheduledJob.ДИ_ОбновлениеРыночныхЦен</scheduledJobs>
   <scheduledJobs>ScheduledJob.ДИ_СборДанныхДляИИ</scheduledJobs>
   <constants>Constant.ДИ_ИИКлючAPI</constants>

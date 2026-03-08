@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Сбор данных для ИИ</value>
   </synonym>
-  <methodName>CommonModule.СоветникИнтеграцияИИ.ДИ_СборДанныхДляИИ</methodName>
+  <methodName>CommonModule.ДИ_СоветникИнтеграцияИИ.ДИ_СборДанныхДляИИ</methodName>
   <use>true</use>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>

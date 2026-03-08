@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9605b460-75b5-496e-90ab-891874cbe3c1">
-  <name>СоветникИнтеграцияИИ</name>
+  <name>ДИ_СоветникИнтеграцияИИ</name>
   <synonym>
     <key>ru</key>
     <value>Советник интеграция ИИ</value>

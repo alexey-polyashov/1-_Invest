@@ -12,7 +12,7 @@
   <content>InformationRegister.ДИ_ФундаментальныеПоказатели</content>
   <content>InformationRegister.ДИ_ПрогнозыИИ</content>
   <content>InformationRegister.ДИ_НовостнойФон</content>
-  <content>CommonModule.СоветникИнтеграцияИИ</content>
+  <content>CommonModule.ДИ_СоветникИнтеграцияИИ</content>
   <content>DataProcessor.ДИ_НастройкиСоветникаИИ</content>
   <content>DataProcessor.ДИ_СформироватьПрогноз</content>
   <content>ScheduledJob.ДИ_СборДанныхДляИИ</content>
