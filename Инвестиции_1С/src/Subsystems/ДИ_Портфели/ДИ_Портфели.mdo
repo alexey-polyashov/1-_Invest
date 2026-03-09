@@ -16,6 +16,6 @@
   <content>Catalog.ДИ_ТипыАктивов</content>
   <content>Catalog.ДИ_СектораЭкономики</content>
   <content>Catalog.ДИ_ЦенныеБумаги</content>
-  <content>Catalog.ДИ_Валюты</content>
   <content>AccumulationRegister.ДИ_ОстаткиЦенныхБумаг</content>
+  <content>Catalog.Валюты</content>
 </mdclass:Subsystem>

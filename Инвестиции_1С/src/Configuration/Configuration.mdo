@@ -503,6 +503,7 @@
   <commonModules>CommonModule.ВыгрузкаОбъектовВФайлыСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ДИ_АналитикаДоходность</commonModules>
   <commonModules>CommonModule.ДИ_БрокерыДиспетчер</commonModules>
+  <commonModules>CommonModule.ДИ_ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ДИ_ПортфелиСтоимость</commonModules>
   <commonModules>CommonModule.ДИ_СоветникИнтеграцияИИ</commonModules>
   <commonModules>CommonModule.ДлительныеОперации</commonModules>
@@ -832,7 +833,6 @@
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
   <catalogs>Catalog.ГруппыПользователей</catalogs>
   <catalogs>Catalog.ДИ_Брокеры</catalogs>
-  <catalogs>Catalog.ДИ_Валюты</catalogs>
   <catalogs>Catalog.ДИ_Портфели</catalogs>
   <catalogs>Catalog.ДИ_СектораЭкономики</catalogs>
   <catalogs>Catalog.ДИ_ТипыАктивов</catalogs>

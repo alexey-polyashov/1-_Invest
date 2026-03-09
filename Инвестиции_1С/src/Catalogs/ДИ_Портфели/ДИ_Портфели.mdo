@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДИ_Портфели.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="5f9e143f-1e08-4591-a7ca-42c0da74fe29">
     <name>ВалютаПортфеля</name>
     <synonym>
@@ -37,7 +38,7 @@
       <value>Валюта портфеля</value>
     </synonym>
     <type>
-      <types>CatalogRef.ДИ_Валюты</types>
+      <types>CatalogRef.Валюты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -240,4 +241,13 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <forms uuid="8444725b-c653-40ce-96ae-3351b8e3c30a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

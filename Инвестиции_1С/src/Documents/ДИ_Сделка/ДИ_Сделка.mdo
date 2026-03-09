@@ -68,7 +68,7 @@
       <value>Валюта сделки</value>
     </synonym>
     <type>
-      <types>CatalogRef.ДИ_Валюты</types>
+      <types>CatalogRef.Валюты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
