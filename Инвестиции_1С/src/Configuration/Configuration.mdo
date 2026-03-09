@@ -19,6 +19,7 @@
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
+  <version>1.0.1.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -546,6 +547,7 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыБСП</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыГлобальный</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыДИ</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиент</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыПереопределяемый</commonModules>
