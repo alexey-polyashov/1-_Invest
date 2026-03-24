@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ДИ_Сделка.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ДИ_ПартииЦенныхБумаг</registerRecords>
   <registerRecords>AccumulationRegister.ДИ_ОстаткиЦенныхБумаг</registerRecords>
   <registerRecords>AccumulationRegister.ДИ_РеализованныеПрибылиУбытки</registerRecords>
@@ -96,6 +97,31 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="0a35509d-d702-4067-ad9d-c136b9fcec9a">
+    <name>ДатаСделки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата сделки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a9ed8416-aaf8-4448-9719-88b405b8a7da">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="cd5a594a-4d2e-46c8-b54a-26fbf80bf951">
     <producedTypes>
       <objectType typeId="008b3954-2622-494d-a826-663834bf1b12" valueTypeId="46fb9afa-e9f2-40e4-ba0f-4acce773eb8b"/>

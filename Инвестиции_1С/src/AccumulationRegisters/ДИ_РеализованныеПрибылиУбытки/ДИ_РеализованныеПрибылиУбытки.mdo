@@ -30,6 +30,10 @@
         <scale>4</scale>
       </numberQualifiers>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма в валюте портфеля</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -47,6 +51,10 @@
         <scale>4</scale>
       </numberQualifiers>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма в валюте портфеля</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -64,6 +72,10 @@
         <scale>4</scale>
       </numberQualifiers>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма в валюте портфеля</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>

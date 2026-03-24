@@ -50,6 +50,23 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
+  <resources uuid="1ca1fe53-a49d-41d4-b489-f3f3199d7b3b">
+    <name>СуммаДоходаВВалютеПортфеля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма дохода в валюте портфеля</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
   <attributes uuid="adbbcdfd-f94a-4f5a-b24a-c06159a48b79">
     <name>ТипДохода</name>
     <synonym>
