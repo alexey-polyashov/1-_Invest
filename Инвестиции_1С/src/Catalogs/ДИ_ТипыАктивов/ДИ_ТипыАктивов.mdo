@@ -29,6 +29,71 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="049ea6ea-329f-441f-8dd3-b9d32109310d">
+      <name>ETF</name>
+      <description>ETF</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000000000000001</value>
+      </code>
+    </items>
+    <items id="2bfbd104-e046-40a2-b7dc-422796f7b795">
+      <name>Акции</name>
+      <description>Акции</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000000000000002</value>
+      </code>
+    </items>
+    <items id="7f043428-7d02-4a07-b110-f0af7f0168b9">
+      <name>Валюта</name>
+      <description>Валюта</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000000000000003</value>
+      </code>
+    </items>
+    <items id="f5952228-2ce6-45ff-9b30-c6c4c0e53aba">
+      <name>ДенежныеСредства</name>
+      <description>Денежные средства</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000000000000004</value>
+      </code>
+    </items>
+    <items id="49652872-24d4-49c0-b9b4-04809452d797">
+      <name>Криптоактивы</name>
+      <description>Криптоактивы</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000000000000005</value>
+      </code>
+    </items>
+    <items id="292ad26c-d734-4029-ac2f-c1dfc4f31690">
+      <name>Облигации</name>
+      <description>Облигации</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000000000000006</value>
+      </code>
+    </items>
+    <items id="52aab626-6ef5-429e-834b-90c2774b2dee">
+      <name>Производные</name>
+      <description>Производные</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000000000000007</value>
+      </code>
+    </items>
+    <items id="6be538fc-0174-448b-983b-df5f4a7adddd">
+      <name>СтруктурныеПродукты</name>
+      <description>Структурные продукты</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000000000000008</value>
+      </code>
+    </items>
+    <items id="3ec54a5f-9f18-4ddf-a385-7dfa11aa7974">
+      <name>Сырье</name>
+      <description>Сырье</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000000000000009</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="fbdce38c-77c7-4414-a151-85e6aba1cf36">
